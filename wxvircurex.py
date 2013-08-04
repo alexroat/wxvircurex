@@ -192,10 +192,10 @@ class VircurexFrame(MainFrame):
 		self.updateAll()
 	def updateAll(self):
 		try:
-			self.updateBalance()
-			self.updateOrders()
 			self.updateCurrencyInfo()
 			self.updateNewOrder()
+			self.updateBalance()
+			self.updateOrders()
 		except:
 			pass
 	def updateBalance(self):
